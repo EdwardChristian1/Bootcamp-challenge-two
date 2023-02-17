@@ -2,6 +2,13 @@
   box-sizing: border-box;
 }
 
+/* added variables for elements that repetead, to make changes easier */
+
+:root {
+  --primary: rgb(170, 220, 179);
+  --secondary:rgb(237, 235, 196);
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -13,7 +20,7 @@ body {
   display: flex;
   flex-direction: row;
   margin: 0px 5%;
-  background-color: rgb(170, 220, 179);
+  background-color: var(--primary);
   padding: 20px;
 }
 
@@ -22,9 +29,9 @@ body {
   width: 25%;
   font-weight: 500;
   margin: 0px 5%;
-  background-color: rgb(237, 235, 196);
+  background-color:var(--secondary);
   padding: 0px;
-  color: rgb(170, 220, 179);
+  color: var(--primary);
 }
 
 #navigation {
@@ -37,7 +44,7 @@ body {
 #navigation a {
   cursor: pointer;
   text-decoration: none;
-  color:rgb(237, 235, 196) ;
+  color: var(--secondary) ;
 }
 
 
