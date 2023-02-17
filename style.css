@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5;
+}
+
+#navBar {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 5%;
+  background-color: rgb(170, 220, 179);
+  padding: 20px;
+}
+
+#navBar h1 {
+
+  width: 25%;
+  font-weight: 500;
+  margin: 0px 5%;
+  background-color: rgb(237, 235, 196);
+  padding: 0px;
+  color: rgb(170, 220, 179);
+}
+
+#navigation {
+  display: flex;
+  width: 50%;
+  align-items: center ;
+  justify-content:space-evenly ;
+  
+}
+#navigation a {
+  cursor: pointer;
+  text-decoration: none;
+  color:rgb(237, 235, 196) ;
+}
+
+
