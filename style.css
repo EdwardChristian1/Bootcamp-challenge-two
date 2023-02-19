@@ -47,4 +47,7 @@ body {
   color: var(--secondary) ;
 }
 
+#contact-links {
+  font-size: 25px;
+}
 
