@@ -5,8 +5,8 @@
 /* added variables for elements that repetead, to make changes easier */
 
 :root {
-  --primary: rgb(170, 220, 179);
-  --secondary:rgb(237, 235, 196);
+  --primary: rgb(1, 3, 20);
+  --secondary: rgb(157, 242, 211);
 }
 
 body {
@@ -19,7 +19,7 @@ body {
 #navBar {
   display: flex;
   flex-direction: row;
-  margin: 0px 5%;
+  margin-right: 5px;
   background-color: var(--primary);
   padding: 20px;
 }
@@ -28,26 +28,59 @@ body {
 
   width: 25%;
   font-weight: 500;
-  margin: 0px 5%;
-  background-color:var(--secondary);
+  margin: 0px ;
+  background-color: var(--secondary);
   padding: 0px;
   color: var(--primary);
 }
 
 #navigation {
   display: flex;
-  width: 50%;
-  align-items: center ;
-  justify-content:space-evenly ;
-  
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+
 }
+
 #navigation a {
   cursor: pointer;
-  text-decoration: none;
-  color: var(--secondary) ;
+  text-decoration: underline;
+  color: var(--secondary);
 }
 
 #contact-links {
   font-size: 25px;
+}
+
+.page-section {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  
+  align-items: flex-start;
+  margin-bottom: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.hero-banner {
+  height: 150px;
+  background-image: url("./images/banner3.png");
+  background-size: 1280px 150px;
+  display: flex;
+  flex-direction: row;
+  margin-right: 5px;
+  padding: 20px;
+}
+
+.hero-banner h2 {
+  display: flex;
+  flex-direction: row;
+  font-weight: 500;
+  margin: 0px 5%;
+  background-color: var(--secondary);
+  padding: 0px;
+  color: var(--primary);
 }
 
